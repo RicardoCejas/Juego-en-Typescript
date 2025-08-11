@@ -1,20 +1,19 @@
 # Juego de Adivinar el Número en TypeScript
 
-Este proyecto es una versión en **TypeScript** del juego clásico **"Adivina el número"**, basado en el tutorial de **MDN Web Docs**.
+Este proyecto es una versión en **TypeScript** del juego clásico "Adivina el número", basado en el tutorial de MDN Web Docs.
 
 El juego genera un número aleatorio entre **1 y 100**.  
-El jugador tiene un máximo de **10 intentos** para adivinarlo.  
+El jugador tiene un máximo de **10 intentos** para adivinarlo.
 
 Después de cada intento:
-- El juego indica si el número ingresado es **correcto**, **demasiado alto** o **demasiado bajo**.
-- Se muestra un **historial** con todos los intentos anteriores.  
+- El juego indica si el número ingresado es correcto, demasiado alto o demasiado bajo.
+- Se muestra un historial con todos los intentos anteriores.
 
 Si el jugador acierta o se queda sin intentos, el juego finaliza y se habilita un botón para reiniciar la partida.
 
 ---
 
 ## Reglas básicas
-
 1. Se elige un número aleatorio entre **1 y 100** al inicio de la partida.
 2. El jugador ingresa un número y pulsa **"Enviar respuesta"**.
 3. El juego indica si el número es **correcto**, **demasiado alto** o **demasiado bajo**.
@@ -25,11 +24,10 @@ Si el jugador acierta o se queda sin intentos, el juego finaliza y se habilita u
 ---
 
 ## Archivos principales
-
-- **`index.html`** → estructura y contenido de la página.
-- **`src/main.ts`** → código del juego escrito en TypeScript.
-- **`dist/main.js`** → versión compilada a JavaScript para el navegador.
-- **`tsconfig.json`** → configuración del compilador TypeScript.
+- **index.html** → estructura y contenido de la página.
+- **src/main.ts** → código del juego escrito en TypeScript.
+- **dist/main.js** → versión compilada a JavaScript para el navegador.
+- **tsconfig.json** → configuración del compilador TypeScript.
 
 ---
 
